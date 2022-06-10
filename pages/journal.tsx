@@ -1,6 +1,14 @@
 import Layout from "../components/Layout";
 import JournalEntryPreview from "../components/small/JournalEntryPreview";
 
+// TODO
+// Pull in from Notion APIs somehow
+// Get preview, title, tags
+// Link to post page which gets body text (can send via query params and ID)
+
+// add hover and click effects to the posts
+// make them show up nicely when loaded
+
 export default function Journal() {
   return (
     <Layout showHome={false} showSideBar={false}>

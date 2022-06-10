@@ -29,7 +29,7 @@ export default function Layout(props: LayoutProps) {
         ></link>
       </Head>
 
-      <div className="mx-12 mt-12">
+      <div className="mx-12 mt-16">
         <div className="flex justify-between">
           {props.showHome ? (
             <a href="/">

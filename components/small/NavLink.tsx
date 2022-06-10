@@ -8,7 +8,9 @@ type NavLinkProps = {
 export default function NavLink(props: NavLinkProps) {
   return (
     <a href={props.href}>
-      <span className="m-2 text-lg cursor-pointer">{props.children}</span>
+      <span className="m-2 hover:underline-animation text-lg cursor-pointer">
+        {props.children}
+      </span>
     </a>
   );
 }
